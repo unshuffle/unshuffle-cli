@@ -1,5 +1,6 @@
 require "unshuffle/version"
 
 module Unshuffle
-  # Your code goes here...
+  autoload :CLI,    'unshuffle/cli'
+  autoload :Client, 'unshuffle/client'
 end
