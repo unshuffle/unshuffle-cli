@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'unshuffle'
+require 'unshuffle/cli'
+
+Unshuffle::CLI.start
