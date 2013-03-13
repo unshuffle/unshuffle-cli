@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Unshuffle::VERSION
   spec.authors       = ["Abhi Hiremagalur"]
   spec.email         = ["abhijit@hiremaga.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{The official command line interface for http://unshuffle.me/}
+  spec.summary       = %q{The official command line interface for http://unshuffle.me/}
+  spec.homepage      = "http://unshuffle.me/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
